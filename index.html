@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>TODO List</title>
+  
+</head>
+<body class="bg-secondary">
+    <div class="container mt-5">
+      <div class="row">
+          <div class="col-md-6 offset-md-3">
+             <form method="POST" id="formdata">
+                 <h5 class="display-4 font-weight-bold mb-5 text-center text-warning"> ToDo List</h5>
+                
+                <div class="input-group shadow-sm">
+                    <input class="form-control text-secondary border-0 rounded-0" id="item" type="text" placeholder="Type your list here...">
+                    <button type="submit" class="btn btn-warning border-0 rounded-0 text-dark">+</button>
+                </div>
+               
+             </form>
+          </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-6 mx-auto">
+         
+            <table class="table shadow rounded-lg">
+                 <thead>
+                   <th class="bg-warning border-0" colspan="3">My Lists</th>
+                 </thead>
+                 <tbody id="userData" class="bg-white">
+                   
+                 </tbody>
+                     
+                 </tbody>
+            </table>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="./js/list.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
